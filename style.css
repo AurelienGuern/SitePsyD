@@ -1,42 +1,47 @@
-
-
-* {
-    font-family: 'Cormorant Garamond', serif; 
+body {
+    font-family: 'Cormorant Garamond', serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    font-family: 'Playfair Display', serif;
+    color: #519dea;
     text-align: center;
+    margin: auto;
     padding: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
-nav {
-    background-color: #555;
-    color: #fff;
+#accueil {
     text-align: center;
-    padding: 1em;
+    margin: auto;
+
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0 1em;
+.container {
+    margin: 0 auto; /* Pour centrer le contenu */
+    display: flex;
 }
 
 section {
     padding: 2em;
+    display: inline-block;
+    flex-direction: row;
 }
 
 footer {
-    background-color: #333;
+    text-decoration: none;
+    font-weight: 600;
     color: #fff;
     text-align: center;
     padding: 1em;
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Ajout d'une couleur de fond avec opacité */
 }
